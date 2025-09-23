@@ -1,109 +1,81 @@
-{
-  "nbformat": 4,
-  "nbformat_minor": 0,
-  "metadata": {
-    "colab": {
-      "provenance": []
-    },
-    "kernelspec": {
-      "name": "python3",
-      "display_name": "Python 3"
-    },
-    "language_info": {
-      "name": "python"
-    }
-  },
-  "cells": [
-    {
-      "cell_type": "code",
-      "execution_count": null,
-      "metadata": {
-        "id": "COLaZu_eF9GD"
-      },
-      "outputs": [],
-      "source": [
-        "/* RESET BÁSICO */\n",
-        "* {\n",
-        "    margin: 0;\n",
-        "    padding: 0;\n",
-        "    box-sizing: border-box;\n",
-        "}\n",
-        "\n",
-        "body {\n",
-        "    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;\n",
-        "    background-color: #fef9f8; /* Rosa muy claro pastel */\n",
-        "    color: #333;\n",
-        "    padding: 30px;\n",
-        "    line-height: 1.6;\n",
-        "}\n",
-        "\n",
-        "/* ENCABEZADO */\n",
-        "header {\n",
-        "    background-color: #b8e0d2; /* Verde menta pastel */\n",
-        "    color: #2c3e50;\n",
-        "    text-align: center;\n",
-        "    padding: 40px 20px;\n",
-        "    border-radius: 10px;\n",
-        "    margin-bottom: 30px;\n",
-        "}\n",
-        "\n",
-        "header h1 {\n",
-        "    font-size: 2.8rem;\n",
-        "    margin-bottom: 10px;\n",
-        "}\n",
-        "\n",
-        "header p {\n",
-        "    font-size: 1.2rem;\n",
-        "    font-style: italic;\n",
-        "}\n",
-        "\n",
-        "/* SECCIONES */\n",
-        "section {\n",
-        "    background-color: #ffffff;\n",
-        "    border-left: 8px solid #f7c8e0; /* Rosado pastel */\n",
-        "    border-radius: 8px;\n",
-        "    padding: 25px;\n",
-        "    margin-bottom: 25px;\n",
-        "    box-shadow: 0 4px 6px rgba(0,0,0,0.05);\n",
-        "}\n",
-        "\n",
-        "h2 {\n",
-        "    color: #6d6875;\n",
-        "    margin-bottom: 15px;\n",
-        "}\n",
-        "\n",
-        "/* LISTAS */\n",
-        "ul {\n",
-        "    list-style: none;\n",
-        "    padding-left: 0;\n",
-        "}\n",
-        "\n",
-        "ul li {\n",
-        "    margin-bottom: 12px;\n",
-        "    font-size: 1rem;\n",
-        "}\n",
-        "\n",
-        "/* ENLACES */\n",
-        "a {\n",
-        "    color: #4a4e69;\n",
-        "    text-decoration: none;\n",
-        "    border-bottom: 2px solid #cdb4db;\n",
-        "    transition: all 0.3s ease;\n",
-        "}\n",
-        "\n",
-        "a:hover {\n",
-        "    background-color: #fcd5ce;\n",
-        "    border-bottom-color: #f08080;\n",
-        "}\n",
-        "\n",
-        "/* PIE DE PÁGINA */\n",
-        "footer {\n",
-        "    text-align: center;\n",
-        "    margin-top: 40px;\n",
-        "    font-size: 0.9rem;\n",
-        "    color: #7b7b7b;\n",
-        "}"
-      ]
-    }
-  ]
+/* RESET BÁSICO */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fef9f8; /* Rosa muy claro pastel */
+    color: #333;
+    padding: 30px;
+    line-height: 1.6;
+}
+
+/* ENCABEZADO */
+header {
+    background-color: #b8e0d2; /* Verde menta pastel */
+    color: #2c3e50;
+    text-align: center;
+    padding: 40px 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+/* SECCIONES */
+section {
+    background-color: #ffffff;
+    border-left: 8px solid #f7c8e0; /* Rosado pastel */
+    border-radius: 8px;
+    padding: 25px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+h2 {
+    color: #6d6875;
+    margin-bottom: 15px;
+}
+
+/* LISTAS */
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin-bottom: 12px;
+    font-size: 1rem;
+}
+
+/* ENLACES */
+a {
+    color: #4a4e69;
+    text-decoration: none;
+    border-bottom: 2px solid #cdb4db;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    background-color: #fcd5ce;
+    border-bottom-color: #f08080;
+}
+
+/* PIE DE PÁGINA */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9rem;
+    color: #7b7b7b;
 }
