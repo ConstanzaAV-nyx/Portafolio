@@ -58,7 +58,7 @@ Evaluar la relación entre características de los atletas (edad, altura, peso, 
 
 ## 🗂️ Archivos del Proyecto
 - `olimpicos.csv`: dataset original.
-- `analisis_olimpicos.py` 
+- `consolidado_mod4.py` 
 - `Images`: Visualizaciones generadas (histogramas, scatterplots, heatmaps, boxplots).
 
 ---
