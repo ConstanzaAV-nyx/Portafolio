@@ -35,6 +35,7 @@ Se utilizó un dataset con información socioeconómica de distintos países:
 
 ## 📂 Contenido del repositorio
 -`dataset_natalidad.csv` - Dataset
+
 -`tasa_natalidad.py` - Script principal con el análisis
 
 ---
