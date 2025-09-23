@@ -45,7 +45,7 @@ Archivo CSV con información de migración entre distintos países:
 
 ## 📂 Archivos del Proyecto  
 - `migracion.csv` – dataset original  
-- `migracion.py` – script de análisis en Python  
+- `analisis_migratorio.py` – script de análisis en Python  
 - `Migracion_Limpio.csv` – dataset limpio exportado  
 
 ## 📝 Resultados e Interpretación  
