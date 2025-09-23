@@ -46,7 +46,7 @@ Evaluar el impacto de un programa de tutoría en el rendimiento académico de lo
 ---
 
 ## 🗂️ Archivos del Proyecto
-- `analisis_tutorias.py` → código del análisis.
+- `programa_tutorias.py` → código del análisis.
 - `README.md` → este documento.
 
 ---
