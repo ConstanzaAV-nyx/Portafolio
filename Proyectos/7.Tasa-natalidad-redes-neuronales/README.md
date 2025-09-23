@@ -41,7 +41,7 @@ Se utilizó un dataset con información socioeconómica de distintos países:
 ---
 
 ## ⚙️ Metodología
-##1️⃣ Carga y exploración de datos
+## 1️⃣ Carga y exploración de datos
 
 Limpieza de valores faltantes y duplicados.
 
