@@ -17,7 +17,7 @@ Este proyecto corresponde al análisis de **preferencias musicales en distintos 
 
 - `dataset_generos_musicales.csv` – Dataset con la popularidad de distintos géneros musicales en cada país.  
 - `preferencias_musicales.py` – Script principal con todo el análisis.  
-- `README.md` – Este archivo.
+
 
 ---
 
