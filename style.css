@@ -6,8 +6,8 @@
 }
 
 body {
-    font-family: 'Lora', serif; /* elegante serif para cuerpo */
-    background-color: #fdf6f0; /* crema muy suave */
+    font-family: 'Lora', serif;
+    background-color: #fdf6f0;
     color: #4a4a4a;
     padding: 30px;
     line-height: 1.7;
@@ -15,8 +15,8 @@ body {
 
 /* ENCABEZADO */
 header {
-    background-color: #f7e8f0; /* rosa suave */
-    color: #6d4c7c; /* morado elegante */
+    background-color: #f7e8f0;
+    color: #6d4c7c;
     text-align: center;
     padding: 40px 20px;
     border-radius: 15px;
@@ -39,7 +39,7 @@ header p {
 /* SECCIONES */
 section {
     background-color: #ffffff;
-    border-left: 6px solid #f7c8e0; /* rosa pastel */
+    border-left: 6px solid #f7c8e0;
     border-radius: 12px;
     padding: 25px;
     margin-bottom: 25px;
@@ -86,16 +86,21 @@ footer {
 
 /* CONSOLA ESTILO PYTHON */
 .console {
-    background-color: #1e1e1e; /* fondo negro */
-    color: #ffb3d9; /* verde suave/femenino */
+    background-color: #1e1e1e;
+    color: #ffb3d9;
     font-family: 'Courier New', Courier, monospace;
     font-size: 1rem;
     padding: 20px;
     border-radius: 12px;
     box-shadow: 0 0 15px rgba(255, 179, 217, 0.4);
-    overflow-x: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
     white-space: pre-wrap;
-    margin-top: 15px;
+    word-wrap: break-word;
+    width: 100%;
+    max-width: 800px;
+    height: 250px;
+    margin: 15px auto;
 }
 
 /* CURSOR PARPADEANTE */
