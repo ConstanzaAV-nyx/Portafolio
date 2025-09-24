@@ -5,25 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Portafolio</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        /* Consola estilo Python */
+        .console {
+            background-color: #1e1e1e; /* fondo negro */
+            color: #00ff00; /* texto verde neón */
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 1rem;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 255, 0, 0.4);
+            overflow-x: auto;
+            white-space: pre-wrap;
+            margin-top: 15px;
+        }
+
+        /* Cursor parpadeante */
+        #console-output::after {
+            content: '_';
+            animation: blink 1s step-start infinite;
+        }
+
+        @keyframes blink {
+            50% { opacity: 0; }
+        }
+    </style>
 </head>
 <body>
     <header>
         <h1>¡Hola! Soy Constanza Acevedo</h1>
         <p class="role">Cientista Política & Analista de Datos · Storyteller digital</p>
     </header>
-    </div>
 
-    <section info="info">
+    <section id="sobre-mi">
         <h2>Sobre Mí</h2>
-    <ul>
-      Profesional en Ciencia Política y Relaciones Internacionales con experiencia en análisis de datos,
-      investigación aplicada y gestión administrativa. Combino métodos cuantitativos y narrativas visuales
-      para convertir datos en conocimiento accionable. Busco oportunidades en análisis político, políticas públicas,
-      investigación aplicada y proyectos de datos con impacto social.
-    </ul>
+        <div class="console">
+            <pre id="console-output"></pre>
+        </div>
     </section>
-
-
 
     <section id="cv">
         <h2>Currículum</h2>
@@ -31,19 +50,19 @@
             <li><strong>Formación:</strong> Licenciatura en Ciencia Política y Relaciones Internacionales - Universidad Alberto Hurtado</li>
             <li><strong>Formación complementaria:</strong> Cursos en storytelling y marketing digital (cursos online).</li>
         </ul>
-        </section>
+    </section>
 
-     <section class="cv-right">
-      <h2>Experiencia profesional</h2>
-      <ul>
-        <li><strong>Administrativo</strong> — Municipalidad de Rancagua (Enero 2025 — Actualidad)
-          <br><small>Gestión documental, atención a público, coordinación de procesos administrativos y apoyo en proyectos locales.</small>
-        </li>
-        <li><strong>Freelance / Proyectos personales</strong> — Análisis de datos y visualización (2021 — presente)
-          <br><small>Proyectos en análisis de redes sociales, personalismo político en campañas electorales; desafíos del marketing digital electoral; presentación de resultados y documentación técnica.</small>
-        </li>
-      </ul>
-      </section>
+    <section class="cv-right">
+        <h2>Experiencia profesional</h2>
+        <ul>
+            <li><strong>Administrativo</strong> — Municipalidad de Rancagua (Enero 2025 — Actualidad)
+                <br><small>Gestión documental, atención a público, coordinación de procesos administrativos y apoyo en proyectos locales.</small>
+            </li>
+            <li><strong>Freelance / Proyectos personales</strong> — Análisis de datos y visualización (2021 — presente)
+                <br><small>Proyectos en análisis de redes sociales, personalismo político en campañas electorales; desafíos del marketing digital electoral; presentación de resultados y documentación técnica.</small>
+            </li>
+        </ul>
+    </section>
 
     <section id="proyectos">
         <h2>Proyectos destacados</h2>
@@ -60,8 +79,26 @@
     </section>
 
     <footer>
-        <p>Contacto: <a href="cacevedo@e-camp.cl">cacevedo@e-camp.cl</a></p>
+        <p>Contacto: <a href="mailto:cacevedo@e-camp.cl">cacevedo@e-camp.cl</a></p>
     </footer>
+
+    <!-- JavaScript para efecto typewriter -->
+    <script>
+        const text = `Bienvenido, soy Constanza Acevedo.
+Profesional en Ciencia Política y Relaciones Internacionales con experiencia en análisis de datos, investigación aplicada y gestión administrativa. Combino métodos cuantitativos y narrativas visuales para convertir datos en conocimiento accionable. Busco oportunidades en análisis político, políticas públicas, investigación aplicada y proyectos de datos con impacto social.`;
+
+        const output = document.getElementById('console-output');
+        let i = 0;
+
+        function typeWriter() {
+            if (i < text.length) {
+                output.textContent += text.charAt(i);
+                i++;
+                setTimeout(typeWriter, 50);
+            }
+        }
+
+        window.onload = typeWriter;
+    </script>
 </body>
 </html>
-    
