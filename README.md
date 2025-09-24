@@ -51,6 +51,7 @@ Clúster y segmentación de países según sus preferencias musicales utilizando
 Diseño y entrenamiento de una red neuronal para predecir tasas de natalidad usando variables socioeconómicas.  
 📄 [Ver proyecto](https://github.com/ConstanzaAV-nyx/Portafolio/tree/main/Proyectos/7.Tasa-natalidad-redes-neuronales)
 - Para complementar, te recomiendo este reportaje de France 24 sobre los efectos de la caída de la natalidad en nuestras sociedades.
+  
 [![Ver Video](https://img.youtube.com/vi/HFfcW_qX-9s/0.jpg)](https://www.youtube.com/watch?v=HFfcW_qX-9s)
 
 
