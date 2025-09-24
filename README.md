@@ -20,21 +20,38 @@ Cada proyecto cuenta con su propio **README** explicando sus objetivos, metodolo
 ---
 
 ## 🚀 Proyectos 
-🔹 **Análisis de Cambio Climático y Agricultura**  
-Evaluación del impacto del cambio climático sobre la producción agrícola en distintos países. Incluye análisis de temperatura, precipitaciones y frecuencia de sequías.  
-📄 [Ver proyecto](https://github.com/ConstanzaAV-nyx/Portafolio/tree/main/CambioClimatico_Agricultura)
 
-🔹 **Análisis de Popularidad de Géneros Musicales**  
+🔹 **Sistema de Gestión de inventario y simulador de Compras**  
+Pequeña aplicación en Python para gestionar el inventario de una cadena de librerías y permitir a los usuarios simular compras desde la consola.
+📄 [Ver proyecto](https://github.com/ConstanzaAV-nyx/Portafolio/tree/main/Proyectos/1.Sistema-gestion)
+
+🔹 **Análisis de Datos de Migración con NumPy y Pandas**  
+Exploración y visualización de datos migratorios para identificar patrones, tendencias y factores socioeconómicos asociados a los flujos de migración.  
+📄 [Ver proyecto](https://github.com/ConstanzaAV-nyx/Portafolio/tree/main/Proyectos/2.Analisis-migracion)
+
+🔹 **Análisis del Desempeño de Atletas Olímpicos**  
+Estudio del desempeño de atletas olímpicos con el objetivo de identificar patrones de rendimiento, factores clave asociados al éxito deportivo y realizar predicciones simples sobre la cantidad de medallas obtenidas
+📄 [Ver proyecto](https://github.com/ConstanzaAV-nyx/Portafolio/tree/main/Proyectos/3.Desempeno-atletasolimpicos)
+
+🔹 **Evaluación del Programa de Tutorías**  
+Este proyecto simula un estudio para determinar si un nuevo programa de tutoría mejora el rendimiento académico de estudiantes.
+📄 [Ver proyecto](https://github.com/ConstanzaAV-nyx/Portafolio/tree/main/Proyectos/4.Evaluacion-programa-tutorias)
+
+🔹 **Cambio Climático y Seguridad Alimentaria: Análisis y Modelado Predictivo**  
+Evaluación del impacto del cambio climático sobre la producción agrícola en distintos países. Incluye análisis de temperatura, precipitaciones y frecuencia de sequías.  
+📄 [Ver proyecto](https://github.com/ConstanzaAV-nyx/Portafolio/tree/main/Proyectos/5.Clima-produccion-agricola)
+
+🔹 **Análisis de Preferencias Musicales y Clusterización por País**  
 Clúster y segmentación de países según sus preferencias musicales utilizando algoritmos de aprendizaje no supervisado.  
-📄 [Ver proyecto](https://github.com/ConstanzaAV-nyx/Portafolio/tree/main/Analisis_Generos_Musicales)
+📄 [Ver proyecto](https://github.com/ConstanzaAV-nyx/Portafolio/tree/main/Proyectos/6.Preferencias-musicales)
 
 🔹 **Predicción de Tasa de Natalidad con Redes Neuronales**  
 Diseño y entrenamiento de una red neuronal para predecir tasas de natalidad usando variables socioeconómicas.  
-📄 [Ver proyecto](https://github.com/ConstanzaAV-nyx/Portafolio/tree/main/RedNeuronal_Natalidad)
+📄 [Ver proyecto](https://github.com/ConstanzaAV-nyx/Portafolio/tree/main/Proyectos/7.Tasa-natalidad-redes-neuronales)
 
 🔹 **Análisis de Migración Humana con Big Data (Spark)**  
 Procesamiento y análisis de grandes volúmenes de datos migratorios usando PySpark y MLlib.  
-📄 [Ver proyecto](https://github.com/ConstanzaAV-nyx/Portafolio/tree/main/BigData_Migracion)
+📄 [Ver proyecto](https://github.com/ConstanzaAV-nyx/Portafolio/tree/main/Proyectos/Big-data-migracion)
 
 🔹 **Otros proyectos en construcción**  
 Serán compartidos próximamente.
