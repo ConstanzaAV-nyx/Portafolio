@@ -4,126 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Portafolio</title>
-
     <!-- Tipografías elegantes -->
     <link href="https://fonts.googleapis.com/css2?family=Lora&family=Playfair+Display&display=swap" rel="stylesheet">
-
-    <style>
-        /* RESET BÁSICO */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: 'Lora', serif;
-            background-color: #fdf6f0;
-            color: #4a4a4a;
-            padding: 30px;
-            line-height: 1.7;
-        }
-
-        /* ENCABEZADO */
-        header {
-            background-color: #f7e8f0;
-            color: #6d4c7c;
-            text-align: center;
-            padding: 40px 20px;
-            border-radius: 15px;
-            margin-bottom: 30px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
-        }
-
-        header h1 {
-            font-size: 2.8rem;
-            font-family: 'Playfair Display', serif;
-            margin-bottom: 10px;
-        }
-
-        header p {
-            font-size: 1.2rem;
-            font-style: italic;
-            color: #7d5a7d;
-        }
-
-        /* SECCIONES */
-        section {
-            background-color: #ffffff;
-            border-left: 6px solid #f7c8e0;
-            border-radius: 12px;
-            padding: 25px;
-            margin-bottom: 25px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-        }
-
-        h2 {
-            font-family: 'Playfair Display', serif;
-            color: #8e568c;
-            margin-bottom: 15px;
-        }
-
-        /* LISTAS */
-        ul {
-            list-style: none;
-            padding-left: 0;
-        }
-
-        ul li {
-            margin-bottom: 12px;
-            font-size: 1rem;
-        }
-
-        /* ENLACES */
-        a {
-            color: #a85cae;
-            text-decoration: none;
-            border-bottom: 2px solid #f0c1e8;
-            transition: all 0.3s ease;
-        }
-
-        a:hover {
-            background-color: #f7e2f5;
-            border-bottom-color: #c36cb5;
-        }
-
-        /* PIE DE PÁGINA */
-        footer {
-            text-align: center;
-            margin-top: 40px;
-            font-size: 0.9rem;
-            color: #7b7b7b;
-        }
-
-        /* CONSOLA ESTILO PYTHON */
-        .console {
-            background-color: #1e1e1e;
-            color: #ffb3d9;
-            font-family: 'Courier New', Courier, monospace;
-            font-size: 1rem;
-            padding: 20px;
-            border-radius: 12px;
-            box-shadow: 0 0 15px rgba(255, 179, 217, 0.4);
-            overflow-x: hidden;
-            overflow-y: auto;
-            white-space: pre-wrap;
-            word-wrap: break-word;
-            width: 100%;
-            max-width: 800px;
-            height: 250px;
-            margin: 15px auto;
-        }
-
-        /* CURSOR PARPADEANTE */
-        #console-output::after {
-            content: '_';
-            animation: blink 1s step-start infinite;
-        }
-
-        @keyframes blink {
-            50% { opacity: 0; }
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -190,7 +73,7 @@ Busco oportunidades en análisis político, políticas públicas, investigación
             if (i < text.length) {
                 output.textContent += text.charAt(i);
                 i++;
-                setTimeout(typeWriter, 30); // más rápido
+                setTimeout(typeWriter, 30);
             }
         }
 
