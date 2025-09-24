@@ -5,7 +5,8 @@ Este repositorio reúne mis proyectos de **análisis de datos**, **Big Data**, y
 
 Aquí podrás explorar trabajos que van desde análisis descriptivo y visualización hasta el diseño de redes neuronales y modelos predictivos usando tecnologías modernas.
 
-Tambien puedes acceder a el y verlo en la web haciendo click [aquí](https://constanzaav-nyx.github.io/Portafolio/) 
+Tambien puedes acceder a el y verlo en la web haciendo click 
+[aquí](https://constanzaav-nyx.github.io/Portafolio/) 
 ---
 
 ## 📂 Estructura del repositorio
